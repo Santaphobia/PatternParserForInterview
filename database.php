@@ -1,6 +1,6 @@
 <?php
 function getDataBase(): PDO {
-    $config = ['driver' => 'mysql', 'host' => 'localhost:8889', 'database' => 'parser_text', 'charset' => 'utf8', 'login' => 'root', 'password' => 'root'];
+    $config = ['driver' => '', 'host' => '', 'database' => '', 'charset' => '', 'login' => '', 'password' => ''];
     $db = new PDO(sprintf("%s:host=%s;dbname=%s;charset=%s",
         $config['driver'],
         $config['host'],
